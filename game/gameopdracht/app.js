@@ -1,32 +1,22 @@
 
-const statusDisplay = document.querySelector('.game--status');
+class Game
+{
+    constructor()
+    {
+      this.canvas = document.getElementById("canvas");
+      this.g = canvas.getContext("2d");
+    }
 
-let gameActive = true;
+    render()
+    {
+        let g = this.g
+        g.fillStyle = "#2e6ede";
+        g.fillRect(0, 0, canvas.clientWidth, canvas.clientHeight);
 
-let currentPlayer = "X";
 
-let gameState = ["", "", "", "", "", "", "", "", ""];
-
-const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw!`;
-const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
-
-statusDisplay.innerHTML = currentPlayerTurn();
-function handleCellPlayed() {
-
+        g.fillStyle = "#000000";
+        g.fillRect(0, 0, 10, 10);  
+    }
 }
-function handlePlayerChange() {
-
-}
-function handleResultValidation() {
-
-}
-function handleCellClick() {
-
-}
-function handleRestartGame() {
-
-}
-
-document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
-document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
+let game = new Game();
+game.render();
