@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Tomorrow', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    background-color: #d0afcb;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+}
+
+
+.logo img{
+    width: 20%;
+    height: auto;
+    color:#d0afcb;
+}
+
+    
+    
+    
+
+.nav-icon i{
+    font-size: 30px;
+    color: #301234;
+    margin-right: 14px;
+    transition: all .42s;
+ 
+}    
+.nav-icon i:hover{
+    color: darksalmon;
+}
+
+section{
+    padding: 0 13%;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, 1fr); */
+    /* align-items: center; */
+}
+.text h4{
+    font-size: 16px;
+    color: #301234;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 5px;
+}
+.text h1{
+    font-size: 55px;
+    color: #301234;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 70px;
+    margin-top: 5px;
+}
+.text p{
+    color: #301234;
+    font-size: 16px;
+    text-transform: capitalize;
+    max-width: 420px;
+    line-height: 25px;
+    margin: 10px 0 20px 0;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color:#301234;
+    padding: 12px 40px;
+    transition: all .42s;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #564854;
+}
+
+
+    .btn{
+        padding: 10px 30px;
+        margin-top: 3px;
+        transition: .3s;
+    }
+
+@media(max-width:920px){
+    #menu-icon{
+        display: block;
+    }
+   
+    }
+    
+
+.topright{
+    position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.topleft{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.text {
+    float: left;
+    width: 50%;
+}
+
+header + * {
+    margin-top: 225px;
+}
+
+ .tickets img{
+
+   float: center;
+    width: 35%;
+    border-radius: 20px;
+ }
