@@ -11,7 +11,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url('/nederlands-site/pics/pikapika.jpg');
+    background-image: url('/nederlands-site/pics/nationaal-videogame-museum.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,7 +42,7 @@ header {
 .navbar {
     display: flex;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 22%;
     background-color:rgb(255, 205, 251); 
     padding: 10px; 
     border: 2px solid #301234; 
@@ -68,7 +68,7 @@ header {
 
 .container h4{
     color: pink;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     text-align: center; 
 }

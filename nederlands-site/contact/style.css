@@ -11,7 +11,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url('/nederlands-site/pics/imgamemus.png');
+    background-image: url('/nederlands-site/pics/nationaal-videogame-museum.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,13 +32,7 @@ header {
     justify-content: space-between;
 }
 
-#menu-icon {
-    font-size: 35px;
-    color: #d0afcb;
-    z-index: 10001;
-    cursor: pointer;
-    display: none;
-}
+
 
 .logo {
     align-self: center;
@@ -48,7 +42,7 @@ header {
 .navbar {
     display: flex;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 25%;
     background-color:rgb(255, 205, 251); 
     padding: 10px; 
     border: 2px solid #301234; 
@@ -72,9 +66,23 @@ header {
 
 }
 
+.container h4{
+    color: pink;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center; 
+}
+
+.container p{
+    color: pink;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center; 
+}
+
 
 .logo img {
-    width: 20%;
+    width: 30%;
     height: auto;
     color: #d0afcb;
 }
@@ -104,7 +112,7 @@ header {
 }
 
 .nav-icon i:hover {
-    color: darksalmon;
+    color: rgb(245, 152, 211);
 }
 
 section {
@@ -116,6 +124,8 @@ section {
     top: 8px;
     left: 16px;
     font-size: 18px;
+    max-width: 400px;
+    max-height: 550px;
 }
 
 @media (max-width: 920px) {
