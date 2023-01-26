@@ -42,7 +42,7 @@ header {
 .navbar {
     display: flex;
     align-items: center;
-    margin-left: 28%; 
+    margin: 0 auto;
     padding: 10px; 
     border: 2px solid #301234; 
     height:auto;
