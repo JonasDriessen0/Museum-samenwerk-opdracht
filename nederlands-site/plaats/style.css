@@ -42,11 +42,13 @@ header {
 .navbar {
     display: flex;
     align-items: center;
-    margin-left: 28%;
-    background-color:rgb(255, 205, 251); 
+    margin-left: 28%; 
     padding: 10px; 
     border: 2px solid #301234; 
     height:auto;
+    border-radius: 10px;
+    background: rgb(239,0,255);
+    background: linear-gradient(90deg, rgba(239,0,255,1) 0%, rgba(255,0,196,1) 100%);
 }
 
 .container {
