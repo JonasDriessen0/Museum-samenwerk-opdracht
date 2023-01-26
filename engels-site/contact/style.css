@@ -8,6 +8,11 @@
     text-decoration: none;
 }
 
+h1{
+    margin: 0 auto;
+    color: pink;
+}
+
 body {
     height: 100vh;
     width: 100vw;
